@@ -1,10 +1,27 @@
 /* ===== Base ===== */
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #b918e1, #480055);
+  background: linear-gradient(135deg, #da5604, #671d00);
   margin: 0;
   padding: 40px;
   color: #fff;
+}
+
+/* ===== Heading ===== */
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #f9c389;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.911);
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 25px;
+  color: #d1e4ff;
 }
 
 /* ===== Layout: form left + table right ===== */
@@ -12,18 +29,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px; /* spacing between form and table */
+  gap: 40px;
   flex-wrap: wrap;
-}
-
-/* ===== Heading ===== */
-h1 {
-  text-align: center;
-  margin-bottom: 25px;
-  font-size: 30px;
-  font-weight: 700;
-  color: #96b5e7;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.911);
 }
 
 /* ===== Form Container ===== */
@@ -33,101 +40,5 @@ h1 {
   padding: 20px 18px;
   border-radius: 14px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-  width: 300px;
-  animation: fadeIn 1s ease;
-}
-
-/* Labels */
-.form-label {
-  font-size: 13px;
-  font-weight: 600;
-  margin-bottom: 4px;
-  display: block;
-  color: #dbeafe;
-}
-
-/* Inputs */
-.form-control {
-  width: 100%;
-  padding: 8px 10px;
-  border-radius: 8px;
-  border: none;
-  outline: none;
-  background: rgba(67, 66, 66, 0.2);
-  color: #fff;
-  font-size: 14px;
-  transition: 0.3s ease;
-  margin-bottom: 15px;
-}
-
-.form-control:focus {
-  background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 6px rgba(124, 187, 255, 0.7);
-  transform: scale(1.02);
-}
-
-/* Submit Button */
-.btn {
-  width: 100%;
-  padding: 10px;
-  border-radius: 8px;
-  border: none;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-  background: linear-gradient(135deg, #6ee7b7, #3b82f6);
-  color: #0f172a;
-  transition: all 0.3s ease;
-}
-
-.btn:hover {
-  background: linear-gradient(135deg, #3b82f6, #6ee7b7);
-  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.5);
-  transform: translateY(-2px);
-}
-
-.btn:active {
-  transform: translateY(1px);
-}
-
-/* ===== Table on Right ===== */
-.table {
-  width: 400px;
-  border-collapse: collapse;
-  background: #ffffff; /* clear white table */
-  color: #1e293b;      /* dark text for readability */
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-  animation: fadeIn 1.2s ease;
-}
-
-.table thead {
-  background: #2563eb; /* blue header */
-  color: #fff;
-}
-
-.table th,
-.table td {
-  padding: 10px 12px;
-  text-align: left;
-  font-size: 14px;
-  border-bottom: 1px solid #e2e8f0;
-}
-
-.table tbody tr:hover {
-  background: #f1f5f9;
-  transition: 0.2s ease;
-}
-
-/* ===== Animations ===== */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(25px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  w
 }
